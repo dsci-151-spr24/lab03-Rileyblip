@@ -332,7 +332,7 @@ Note that your bar plot won't exactly match the one from the Buzzfeed article. T
 ```
 
 6.  In a single pipeline, filter for laureates who won their prize in the US, but were born outside of the US, and then create a frequency table (with the `count()` function) for their birth country (`born_country`) and arrange the resulting data frame in descending order of number of observations for each country. Which country is the most common?
-***The country that is the most common is Germany.***
+***The country that is the most common is Germany with 20, and with Japan and U.K. following.***
 
 ```{r}
 nobel_living_science %>%
