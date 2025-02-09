@@ -210,6 +210,7 @@ You don't have to switch at each exercise, you can find your a cadence that work
 ## Get to know your data
 
 1.  How many observations and how many variables are in the dataset? Use inline code to answer this question. What does each row represent?
+***There are `r nrow(nobel)` rows and `r ncol(nobel)` columns in the nobel dataset, and each row represents a nobel winner.***
 
 There are some observations in this dataset that we will exclude from our analysis to match the Buzzfeed results.
 
@@ -229,6 +230,7 @@ nobel_living <- nobel %>%
 ```
 
 Confirm that once you have filtered for these characteristics you are left with a data frame with `r nrow(nobel_living)` observations, once again using inline code.
+***When these characteristics are filtered, it leaves me with `r nrow(nobel_living)` rows and `r ncol(nobel_living)` columns.***
 
 🧶 ✅ ⬆️ Knit, *commit, and push your changes to GitHub with an appropriate commit message. Make sure to commit and push all changed files so that your Git pane is cleared up afterwards.*
 
